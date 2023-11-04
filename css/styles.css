@@ -74,12 +74,12 @@ body {}
 .search_form_apps input {
     outline: 0 !important;
     box-shadow: 0px 1px 0px #0000004d;
-    padding: 5px 20px;
+    padding: 5px 10px;
     width: 100%;
     border-radius: 5px;
     border: 1px solid #0000002b;
     font-size: 14px;
-    padding-right: 30px;
+    padding-right: 40px;
 }
 
 .search_form_apps button {
