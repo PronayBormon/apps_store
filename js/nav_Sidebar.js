@@ -13,6 +13,7 @@
       $(".menu_text h6").fadeIn();
       $(".s_btn_close").fadeIn();
     });
+
     $(".s_btn_close").click(function(){
       $(".side_bar").fadeOut();
       $(".side_bar_box").removeClass("moble");

@@ -25,542 +25,641 @@
 <body>
 
 
-
-  <!-- top bar start here  -->
-  <div class="top_bar _nav">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="nav_bar">
-            <div class="d-flex justify-content-between align-items-center">
-              <!-- sidebar button  -->
-              <button type="button" class="btn_download s_btn"><i class="fa-solid fa-bars-staggered"></i></button>
-
-              <div class="top_searchbar">
-                <div class="dropdown">
-                  <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    All
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Essential apps</a></li>
-                    <li><a class="dropdown-item" href="#">Social apps</a></li>
-                    <li><a class="dropdown-item" href="#">Design apps</a></li>
-                    <li><a class="dropdown-item" href="#">Essential apps</a></li>
-                    <li><a class="dropdown-item" href="#">Social apps</a></li>
-                    <li><a class="dropdown-item" href="#">Design apps</a></li>
-                    <li><a class="dropdown-item" href="#">Essential apps</a></li>
-                    <li><a class="dropdown-item" href="#">Social apps</a></li>
-                    <li><a class="dropdown-item" href="#">Design apps</a></li>
-
-                  </ul>
-                </div>
-                <div class="search_form_apps">
-                  <input type="text" placeholder="Search apps,games, movies and more">
-                  <button class="" type="button"><i class="fa-solid fa-search"></i></button>
-                </div>
-              </div>
-
-              <div class="dropdown border-top">
-                <a href="#"
-                  class="d-flex align-items-center justify-content-center p-3 link-body-emphasis text-decoration-none dropdown-toggle"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="https://github.com/mdo.png" alt="mdo" width="24" height="24" class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small shadow">
-                  <li><a class="dropdown-item" href="#">New project...</a></li>
-                  <li><a class="dropdown-item" href="#">Settings</a></li>
-                  <li><a class="dropdown-item" href="#">Profile</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Sign out</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+  <div class="d-flex">
+    <!-- sidebar part start here  -->
+    <div class="side_bar">
+      <div class="d-flex flex-column flex-shrink-0 side_bar_box" style="width: 4.5rem;">
+        <div class="d-flex justify-content-between">
+          <a href="/" class="d-block p-3 link-body-emphasis text-decoration-none" title="FF" data-bs-toggle="tooltip"
+            data-bs-placement="right">
+            <img src="images/logo.png" loading="lazy" class="img-fluid sidebar_logo" alt="">
+          </a>
+          <button class="s_btn_close" type="button"><i class="fa-solid fa-x"></i></button>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- top bar end here  -->
 
 
-
-  <!-- sidebar part start here  -->
-  <div class="side_bar">
-    <div class="d-flex flex-column flex-shrink-0 side_bar_box" style="width: 4.5rem;">
-      <div class="d-flex justify-content-between">
-        <a href="/" class="d-block p-3 link-body-emphasis text-decoration-none" title="FF" data-bs-toggle="tooltip"
-          data-bs-placement="right">
-          <img src="images/logo.png" loading="lazy" class="img-fluid sidebar_logo" alt="">
-        </a>
-        <button class="s_btn_close" type="button"><i class="fa-solid fa-x"></i></button>
-      </div>
-
-
-      <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link active py-3 border-bottom rounded-0" aria-current="page" title="Home"
-            data-bs-toggle="tooltip" data-bs-placement="right">
-            <div class="menu_text">
-              <i class="fa-solid fa-house"></i>
-              <h6>Home</h6>
-            </div>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link active py-3 border-bottom rounded-0" aria-current="page" title="Apps"
-            data-bs-toggle="tooltip" data-bs-placement="right">
-            <div class="menu_text">
-              <i class="fa-solid fa-table-cells-large"></i>
-              <h6>Apps</h6>
-            </div>
-
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link active py-3 border-bottom rounded-0" aria-current="page" title="Movies & TV"
-            data-bs-toggle="tooltip" data-bs-placement="right">
-            <div class="menu_text">
-              <i class="fa-solid fa-clapperboard"></i>
-              <h6>Movies & TV</h6>
-            </div>
-
-          </a>
-        </li>
-
-      </ul>
-      <div class="dropdown border-top">
-        <a href="#"
-          class="d-flex align-items-center justify-content-center p-3 link-body-emphasis text-decoration-none dropdown-toggle"
-          data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="https://github.com/mdo.png" alt="mdo" width="24" height="24" class="rounded-circle">
-        </a>
-        <ul class="dropdown-menu text-small shadow">
-          <li><a class="dropdown-item" href="#">New project...</a></li>
-          <li><a class="dropdown-item" href="#">Settings</a></li>
-          <li><a class="dropdown-item" href="#">Profile</a></li>
-          <li>
-            <hr class="dropdown-divider">
+        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active py-3 border-bottom rounded-0" aria-current="page" title="Home"
+              data-bs-toggle="tooltip" data-bs-placement="right">
+              <div class="menu_text">
+                <i class="fa-solid fa-house"></i>
+                <h6>Home</h6>
+              </div>
+            </a>
           </li>
-          <li><a class="dropdown-item" href="#">Sign out</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active py-3 border-bottom rounded-0" aria-current="page" title="Apps"
+              data-bs-toggle="tooltip" data-bs-placement="right">
+              <div class="menu_text">
+                <i class="fa-solid fa-table-cells-large"></i>
+                <h6>Apps</h6>
+              </div>
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active py-3 border-bottom rounded-0" aria-current="page" title="Movies & TV"
+              data-bs-toggle="tooltip" data-bs-placement="right">
+              <div class="menu_text">
+                <i class="fa-solid fa-clapperboard"></i>
+                <h6>Movies & TV</h6>
+              </div>
+
+            </a>
+          </li>
+
         </ul>
+        <div class="dropdown border-top">
+          <a href="#"
+            class="d-flex align-items-center justify-content-center p-3 link-body-emphasis text-decoration-none dropdown-toggle"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://github.com/mdo.png" alt="mdo" width="24" height="24" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- sidebar part end here  -->
+    <!-- sidebar part end here  -->
 
-  <!-- slider part start here  -->
-  <div class="slider_sec">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="carousel_slider">
-            <div class="owl-carousel">
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_one.jpeg" class="img-fluid" loading="lazy" alt="">
-                </a>
-              </div>
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_two.jpg" class="img-fluid" loading="lazy" alt="">
-                </a>
-              </div>
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_three.webp" class="img-fluid" loading="lazy" alt="">
-                </a>
-              </div>
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_one.jpeg" class="img-fluid" loading="lazy" alt="">
-                </a>
-              </div>
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_two.jpg" class="img-fluid" loading="lazy" alt="">
-                </a>
-              </div>
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_three.webp" class="img-fluid" loading="lazy" alt="">
-                </a>
-              </div>
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_three.webp" class="img-fluid" loading="lazy" alt="">
-                </a>
-              </div>
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_one.jpeg" class="img-fluid" loading="lazy" alt="">
-                </a>
-              </div>
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_two.jpg" class="img-fluid" loading="lazy" alt="">
-                </a>
-              </div>
-              <div class="img_slide">
-                <a href="details.html">
-                  <img src="images/slider_three.webp" class="img-fluid" loading="lazy" alt="">
-                </a>
+    <div class="main">
+      <!-- top bar start here  -->
+      <div class="top_bar _nav">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="nav_bar">
+                <div class="d-flex justify-content-between align-items-center">
+                  <!-- sidebar button  -->
+                  <button type="button" class="btn_download s_btn"><i class="fa-solid fa-bars-staggered"></i></button>
+
+                  <div class="top_searchbar">
+                    <div class="dropdown">
+                      <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        All
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Essential apps</a></li>
+                        <li><a class="dropdown-item" href="#">Social apps</a></li>
+                        <li><a class="dropdown-item" href="#">Design apps</a></li>
+                        <li><a class="dropdown-item" href="#">Essential apps</a></li>
+                        <li><a class="dropdown-item" href="#">Social apps</a></li>
+                        <li><a class="dropdown-item" href="#">Design apps</a></li>
+                        <li><a class="dropdown-item" href="#">Essential apps</a></li>
+                        <li><a class="dropdown-item" href="#">Social apps</a></li>
+                        <li><a class="dropdown-item" href="#">Design apps</a></li>
+
+                      </ul>
+                    </div>
+                    <div class="search_form_apps">
+                      <input type="text" placeholder="Search apps,games, movies and more">
+                      <button class="" type="button"><i class="fa-solid fa-search"></i></button>
+                    </div>
+                  </div>
+
+                  <div class="dropdown border-top">
+                    <a href="#"
+                      class="d-flex align-items-center justify-content-center p-3 link-body-emphasis text-decoration-none dropdown-toggle"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="https://github.com/mdo.png" alt="mdo" width="24" height="24" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small shadow">
+                      <li><a class="dropdown-item" href="#">New project...</a></li>
+                      <li><a class="dropdown-item" href="#">Settings</a></li>
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- slider part end here  -->
+      <!-- top bar end here  -->
 
-  <!-- apps first view part start here  -->
-  <div class="apps_first">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <a href="category.html" class="t_link">Top Free Apps <i class="fa-solid fa-angle-right"></i></a>
-          <div class="apps_f_grid">
-            <div class="apps_box_one">
-              <a href="details.html">
-                <div class="d-flex justify-content-between">
-                  <div class="img_box"><img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
+      <!-- slider part start here  -->
+      <div class="slider_sec">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="carousel_slider">
+                <div class="owl-carousel _slide">
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_one.jpeg" class="img-fluid" loading="lazy" alt="">
+                    </a>
                   </div>
-                  <div class="m_align">
-                    <h3>Canva app</h3>
-                    <p><i class="fa-solid fa-star"></i>4.5 <span>Design</span></p>
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_two.jpg" class="img-fluid" loading="lazy" alt="">
+                    </a>
                   </div>
-                  <div>
-                    <button class="btn_download">Download</button>
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_three.webp" class="img-fluid" loading="lazy" alt="">
+                    </a>
+                  </div>
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_one.jpeg" class="img-fluid" loading="lazy" alt="">
+                    </a>
+                  </div>
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_two.jpg" class="img-fluid" loading="lazy" alt="">
+                    </a>
+                  </div>
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_three.webp" class="img-fluid" loading="lazy" alt="">
+                    </a>
+                  </div>
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_three.webp" class="img-fluid" loading="lazy" alt="">
+                    </a>
+                  </div>
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_one.jpeg" class="img-fluid" loading="lazy" alt="">
+                    </a>
+                  </div>
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_two.jpg" class="img-fluid" loading="lazy" alt="">
+                    </a>
+                  </div>
+                  <div class="img_slide">
+                    <a href="details.html">
+                      <img src="images/slider_three.webp" class="img-fluid" loading="lazy" alt="">
+                    </a>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
-            <div class="apps_box_one">
-              <a href="details.html">
-                <div class="d-flex justify-content-between">
-                  <div class="img_box"><img src="images/app-100.png" class="img-fluid" loading="lazy" alt=""></div>
-                  <div class="m_align">
+          </div>
+        </div>
+      </div>
+      <!-- slider part end here  -->
+
+      <!-- apps first view part start here  -->
+      <div class="apps_first">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="category.html" class="t_link">Top Free Apps <i class="fa-solid fa-angle-right"></i></a>
+              <div class="apps_f_grid">
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
+                      </div>
+                      <div class="m_align">
+                        <h3>Canva app</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Design</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/app-100.png" class="img-fluid" loading="lazy" alt=""></div>
+                      <div class="m_align">
+                        <h3>Telegram</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
+                      </div>
+                      <div class="m_align">
+                        <h3>YouTube</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/app-100.png" class="img-fluid" loading="lazy" alt=""></div>
+                      <div class="m_align">
+                        <h3>Telegram</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
+                      </div>
+                      <div class="m_align">
+                        <h3>YouTube</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
+                      </div>
+                      <div class="m_align">
+                        <h3>Canva app</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Design</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
+                      </div>
+                      <div class="m_align">
+                        <h3>Canva app</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Design</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/app-100.png" class="img-fluid" loading="lazy" alt=""></div>
+                      <div class="m_align">
+                        <h3>Telegram</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
+                      </div>
+                      <div class="m_align">
+                        <h3>YouTube</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/app-100.png" class="img-fluid" loading="lazy" alt=""></div>
+                      <div class="m_align">
+                        <h3>Telegram</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
+                      </div>
+                      <div class="m_align">
+                        <h3>YouTube</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="apps_box_one">
+                  <a href="details.html">
+                    <div class="d-flex justify-content-between">
+                      <div class="img_box"><img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
+                      </div>
+                      <div class="m_align">
+                        <h3>Canva app</h3>
+                        <p><i class="fa-solid fa-star"></i>4.5 <span>Design</span></p>
+                      </div>
+                      <div>
+                        <button class="btn_download">Download</button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- apps first view part end here  -->
+
+      <!-- essential apps part start here  -->
+      <div class="essential_">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="essential_box">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="essential_d">
+                      <h1>Essentail apps</h1>
+                      <p>Turn your favorite photos and videos into works of art with these great apps</p>
+                      <a href="category.html">See all </a>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="essential_grid">
+                      <div class="apps_box_two">
+                        <div class="s_img_box">
+                          <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                        </div>
+                        <div class="d_box">
+                          <h3>Telegram</h3>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <p><i class="fa-solid fa-star"></i>2.6</p>
+                            <a href="details.html" class="btn_download">Download</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="apps_box_two">
+                        <div class="s_img_box">
+                          <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                        </div>
+                        <div class="d_box">
+                          <h3>Telegram</h3>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <p><i class="fa-solid fa-star"></i>2.6</p>
+                            <a href="details.html" class="btn_download">Download</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="apps_box_two">
+                        <div class="s_img_box">
+                          <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                        </div>
+                        <div class="d_box">
+                          <h3>Telegram</h3>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <p><i class="fa-solid fa-star"></i>2.6</p>
+                            <a href="details.html" class="btn_download">Download</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="apps_box_two">
+                        <div class="s_img_box">
+                          <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                        </div>
+                        <div class="d_box">
+                          <h3>Telegram</h3>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <p><i class="fa-solid fa-star"></i>2.6</p>
+                            <a href="details.html" class="btn_download">Download</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- essential apps part end here  -->
+
+
+      <!-- apps second view start here   -->
+      <div class="apps_second">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="category.html" class="t_link">Top Free Apps <i class="fa-solid fa-angle-right"></i></a>
+              <div class="apps_s_grid">
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
                     <h3>Telegram</h3>
-                    <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
-                  </div>
-                  <div>
-                    <button class="btn_download">Download</button>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
                   </div>
                 </div>
-              </a>
-            </div>
-            <div class="apps_box_one">
-              <a href="details.html">
-                <div class="d-flex justify-content-between">
-                  <div class="img_box"><img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt=""></div>
-                  <div class="m_align">
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
                     <h3>YouTube</h3>
-                    <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
-                  </div>
-                  <div>
-                    <button class="btn_download">Download</button>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
                   </div>
                 </div>
-              </a>
-            </div>
-            <div class="apps_box_one">
-              <a href="details.html">
-                <div class="d-flex justify-content-between">
-                  <div class="img_box"><img src="images/app-100.png" class="img-fluid" loading="lazy" alt=""></div>
-                  <div class="m_align">
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
+                    <h3>Canva</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
                     <h3>Telegram</h3>
-                    <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
-                  </div>
-                  <div>
-                    <button class="btn_download">Download</button>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
                   </div>
                 </div>
-              </a>
-            </div>
-            <div class="apps_box_one">
-              <a href="details.html">
-                <div class="d-flex justify-content-between">
-                  <div class="img_box"><img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt=""></div>
-                  <div class="m_align">
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
                     <h3>YouTube</h3>
-                    <p><i class="fa-solid fa-star"></i>4.5 <span>Social</span></p>
-                  </div>
-                  <div>
-                    <button class="btn_download">Download</button>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="apps_box_one">
-              <a href="details.html">
-                <div class="d-flex justify-content-between">
-                  <div class="img_box"><img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
-                  </div>
-                  <div class="m_align">
-                    <h3>Canva app</h3>
-                    <p><i class="fa-solid fa-star"></i>4.5 <span>Design</span></p>
-                  </div>
-                  <div>
-                    <button class="btn_download">Download</button>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
                   </div>
                 </div>
-              </a>
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
+                    <h3>Canva</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- apps second view end here  -->
+
+      <!-- apps second view start here   -->
+      <div class="apps_second">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="category.html" class="t_link">Music & Streaming apps <i class="fa-solid fa-angle-right"></i></a>
+              <div class="apps_s_grid">
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
+                    <h3>Telegram</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
+                    <h3>YouTube</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
+                    <h3>Canva</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
+                    <h3>Telegram</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
+                    <h3>YouTube</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="apps_box_two">
+                  <div class="s_img_box">
+                    <img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
+                  </div>
+                  <div class="d_box">
+                    <h3>Canva</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p><i class="fa-solid fa-star"></i>2.6</p>
+                      <a href="details.html" class="btn_download">Download</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- apps second view end here  -->
     </div>
   </div>
-  <!-- apps first view part end here  -->
-
-  <!-- essential apps part start here  -->
-  <div class="essential_">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="essential_box">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="essential_d">
-                  <h1>Essentail apps</h1>
-                  <p>Turn your favorite photos and videos into works of art with these great apps</p>
-                  <a href="category.html">See all </a>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="essential_grid">
-                  <div class="apps_box_two">
-                    <div class="s_img_box">
-                      <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
-                    </div>
-                    <div class="d_box">
-                      <h3>Telegram</h3>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <p><i class="fa-solid fa-star"></i>2.6</p>
-                        <a href="details.html" class="btn_download">Download</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="apps_box_two">
-                    <div class="s_img_box">
-                      <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
-                    </div>
-                    <div class="d_box">
-                      <h3>Telegram</h3>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <p><i class="fa-solid fa-star"></i>2.6</p>
-                        <a href="details.html" class="btn_download">Download</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="apps_box_two">
-                    <div class="s_img_box">
-                      <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
-                    </div>
-                    <div class="d_box">
-                      <h3>Telegram</h3>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <p><i class="fa-solid fa-star"></i>2.6</p>
-                        <a href="details.html" class="btn_download">Download</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="apps_box_two">
-                    <div class="s_img_box">
-                      <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
-                    </div>
-                    <div class="d_box">
-                      <h3>Telegram</h3>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <p><i class="fa-solid fa-star"></i>2.6</p>
-                        <a href="details.html" class="btn_download">Download</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- essential apps part end here  -->
 
 
-  <!-- apps second view start here   -->
-  <div class="apps_second">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <a href="category.html" class="t_link">Top Free Apps <i class="fa-solid fa-angle-right"></i></a>
-          <div class="apps_s_grid">
-            <div class="apps_box_two">
-              <div class="s_img_box">
-                <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
-              </div>
-              <div class="d_box">
-                <h3>Telegram</h3>
-                <div class="d-flex justify-content-between align-items-center">
-                  <p><i class="fa-solid fa-star"></i>2.6</p>
-                  <a href="details.html" class="btn_download">Download</a>
-                </div>
-              </div>
-            </div>
-            <div class="apps_box_two">
-              <div class="s_img_box">
-                <img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
-              </div>
-              <div class="d_box">
-                <h3>YouTube</h3>
-                <div class="d-flex justify-content-between align-items-center">
-                  <p><i class="fa-solid fa-star"></i>2.6</p>
-                  <a href="details.html" class="btn_download">Download</a>
-                </div>
-              </div>
-            </div>
-            <div class="apps_box_two">
-              <div class="s_img_box">
-                <img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
-              </div>
-              <div class="d_box">
-                <h3>Canva</h3>
-                <div class="d-flex justify-content-between align-items-center">
-                  <p><i class="fa-solid fa-star"></i>2.6</p>
-                  <a href="details.html" class="btn_download">Download</a>
-                </div>
-              </div>
-            </div>
-            <div class="apps_box_two">
-              <div class="s_img_box">
-                <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
-              </div>
-              <div class="d_box">
-                <h3>Telegram</h3>
-                <div class="d-flex justify-content-between align-items-center">
-                  <p><i class="fa-solid fa-star"></i>2.6</p>
-                  <a href="details.html" class="btn_download">Download</a>
-                </div>
-              </div>
-            </div>
-            <div class="apps_box_two">
-              <div class="s_img_box">
-                <img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
-              </div>
-              <div class="d_box">
-                <h3>YouTube</h3>
-                <div class="d-flex justify-content-between align-items-center">
-                  <p><i class="fa-solid fa-star"></i>2.6</p>
-                  <a href="details.html" class="btn_download">Download</a>
-                </div>
-              </div>
-            </div>
-            <div class="apps_box_two">
-              <div class="s_img_box">
-                <img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
-              </div>
-              <div class="d_box">
-                <h3>Canva</h3>
-                <div class="d-flex justify-content-between align-items-center">
-                  <p><i class="fa-solid fa-star"></i>2.6</p>
-                  <a href="details.html" class="btn_download">Download</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- apps second view end here  -->
 
-    <!-- apps second view start here   -->
-    <div class="apps_second">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="category.html" class="t_link">Music & Streaming apps <i class="fa-solid fa-angle-right"></i></a>
-            <div class="apps_s_grid">
-              <div class="apps_box_two">
-                <div class="s_img_box">
-                  <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
-                </div>
-                <div class="d_box">
-                  <h3>Telegram</h3>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <p><i class="fa-solid fa-star"></i>2.6</p>
-                    <a href="details.html" class="btn_download">Download</a>
-                  </div>
-                </div>
-              </div>
-              <div class="apps_box_two">
-                <div class="s_img_box">
-                  <img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
-                </div>
-                <div class="d_box">
-                  <h3>YouTube</h3>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <p><i class="fa-solid fa-star"></i>2.6</p>
-                    <a href="details.html" class="btn_download">Download</a>
-                  </div>
-                </div>
-              </div>
-              <div class="apps_box_two">
-                <div class="s_img_box">
-                  <img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
-                </div>
-                <div class="d_box">
-                  <h3>Canva</h3>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <p><i class="fa-solid fa-star"></i>2.6</p>
-                    <a href="details.html" class="btn_download">Download</a>
-                  </div>
-                </div>
-              </div>
-              <div class="apps_box_two">
-                <div class="s_img_box">
-                  <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
-                </div>
-                <div class="d_box">
-                  <h3>Telegram</h3>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <p><i class="fa-solid fa-star"></i>2.6</p>
-                    <a href="details.html" class="btn_download">Download</a>
-                  </div>
-                </div>
-              </div>
-              <div class="apps_box_two">
-                <div class="s_img_box">
-                  <img src="images/youtube-100.png" class="img-fluid" loading="lazy" alt="">
-                </div>
-                <div class="d_box">
-                  <h3>YouTube</h3>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <p><i class="fa-solid fa-star"></i>2.6</p>
-                    <a href="details.html" class="btn_download">Download</a>
-                  </div>
-                </div>
-              </div>
-              <div class="apps_box_two">
-                <div class="s_img_box">
-                  <img src="images/canva-app-100.png" class="img-fluid" loading="lazy" alt="">
-                </div>
-                <div class="d_box">
-                  <h3>Canva</h3>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <p><i class="fa-solid fa-star"></i>2.6</p>
-                    <a href="details.html" class="btn_download">Download</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- apps second view end here  -->
+
+
+
+
 
 
   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
@@ -586,13 +685,16 @@
             items: 1
           },
           600: {
-            items: 2
+            items: 2,
+
           },
           992: {
-            items: 3
+            items: 3,
+            margin: 10,
           },
           1200: {
-            items: 4
+            items: 4,
+            margin: 10,
           }
         }
       });
