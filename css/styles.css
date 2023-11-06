@@ -1106,6 +1106,23 @@ ul.breadcrumb li a {
 
 .btn_cls i {}
 
+@media(max-width: 576px){
+    .app_icon_details h3 {
+        font-size: 20px;
+    }
+    .app_icon_details .btn_download {
+        font-size: 12px;
+    }
+    .app_icon_details img {
+        margin-bottom: 14px;
+        background: #8080801a;
+        border-radius: 8px;
+        filter: drop-shadow(2px 4px 6px #ededed);
+        /* box-shadow: 0 0 3px #3232e82e; */
+        height: 90px;
+        width: 90px;
+    }
+}
 @media(max-width: 426px) {
     .nav_options .nav-item {
         margin: 0px 5px;
