@@ -81,7 +81,7 @@ body {
 
 .search_form_apps input {
     outline: 0 !important;
-    box-shadow: 0px 1px 0px #0000004d;
+    /* box-shadow: 0px 1px 0px #0000004d; */
     padding: 5px 10px;
     width: 100%;
     border-radius: 5px;
@@ -131,10 +131,10 @@ body {
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 20px #3f51b594;
+    box-shadow: 0 0 20px #3f51b514;
     margin: 20px 0px;
     min-width: 350px;
-    margin: 0px 8px;
+    margin: 10px 8px;
 }
 
 .img_slide a {
@@ -213,7 +213,7 @@ body {
 .apps_f_grid {
     display: grid;
     grid-template-columns: repeat(4, 12fr);
-    gap: 10px;
+    gap: 5px;
     margin-bottom: 20px;
     /* grid-template-rows: 1fr 1fr 0; */
     overflow: hidden;
@@ -240,10 +240,11 @@ body {
 }
 
 .apps_box_one img {
-    background: #80808012;
-    border-radius: 10px;
-    padding: 10px;
+    /* background: #80808012; */
+    border-radius: 15px;
+    /* padding: 10px; */
     max-width: 75px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
 }
 
 .apps_box_one h3 {
@@ -263,6 +264,7 @@ body {
     color: #808080c7;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .apps_box_one p i {
@@ -271,9 +273,9 @@ body {
 }
 
 .apps_box_one p span {
-    margin-left: 8px;
-    font-weight: 500;
-    font-size: 12px;
+    /* margin-left: 8px; */
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .btn_download {
@@ -306,7 +308,7 @@ body {
 .apps_s_grid {
     display: grid;
     grid-template-columns: repeat(6, 12fr);
-    gap: 8px;
+    gap: 5px;
     margin-bottom: 15px;
 }
 
@@ -343,7 +345,7 @@ body {
 }
 
 .s_img_box {
-    height: 128px;
+    height: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -563,7 +565,7 @@ color: #000;
 }
 
 .cat_banner .essential_box {
-    min-height: 50vh;
+    min-height: 35vh;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -573,7 +575,7 @@ color: #000;
 .cat_apps_view .apps_s_grid {
     padding: 0px 40px;
     /* transform: translateY(-120px); */
-    margin-top: -120px;
+    margin-top: -85px;
 }
 
 /* details part end here  */
@@ -586,7 +588,7 @@ color: #000;
 
 .top_searchbar select {
     /* margin: 10px; */
-    box-shadow: 0px 1px 0px 0px #0000004d;
+    /* box-shadow: 0px 1px 0px 0px #0000004d; */
     outline: 0 !important;
     border: 1px solid #0000002b;
     font-size: 14px;
@@ -906,6 +908,7 @@ ul.breadcrumb li a {
     border-radius: 0 !important;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
+    object-fit: cover;
 }
 
 .blur_box {
