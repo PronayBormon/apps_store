@@ -327,6 +327,7 @@ body {
     /* number of lines to show */
     line-clamp: 1;
     -webkit-box-orient: vertical;
+    color: #000;
 }
 
 .apps_box_two p {
@@ -472,6 +473,7 @@ body {
 .app_icon_details h3 {
     font-size: 28px;
     margin-bottom: 0px;
+    color: #000;
 }
 
 .app_icon_details a {
@@ -550,7 +552,9 @@ body {
 
 .app_list_ h6 {
 
-    margin-bottom: 10px;
+margin-bottom: 10px;
+
+color: #000;
 }
 
 .cat_banner {
