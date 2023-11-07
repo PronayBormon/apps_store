@@ -1180,23 +1180,16 @@
             margin: 10,
           },
           1200: {
-            items: 3,
+            items: 6,
             margin: 10,
           },
           1500:{
-            items: 4,
+            items: 6,
             margin: 10,
           }
         }
       });
-      owl.on('mousewheel', '.owl-stage', function (e) {
-        if (e.originalEvent.wheelDelta > 0 > 0) {
-          owl.trigger('prev.owl');
-        } else {
-          owl.trigger('next.owl');
-        }
-        e.preventDefault();
-      });
+      
     });
   </script>
 
