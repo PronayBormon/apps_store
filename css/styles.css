@@ -420,11 +420,13 @@ body {
     font-size: 22px;
     color: #fff;
     margin-bottom: 15px;
+    margin-left: 10px;
 }
 
 .essential_d p {
     color: #fff;
     font-size: 14px;
+    margin-left: 10px;
 }
 
 .essential_d a {
@@ -462,17 +464,22 @@ body {
     /* min-height: 81vh; */
     box-shadow: 0 1px 2px #0000000f;
     background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    min-height: 98%;
 }
 
 .app_icon_details img {
-    max-width: 200px;
+    max-width: 250px;
     margin-bottom: 30px;
     background: #8080801a;
     border-radius: 8px;
     filter: drop-shadow(2px 4px 6px #ededed);
     /* box-shadow: 0 0 3px #3232e82e; */
-    height: 120px;
-    width: 120px;
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .app_icon_details h3 {
@@ -517,14 +524,16 @@ body {
 
 .app_icon_details span {
     background: #fff;
-    box-shadow: 0px 1px 2px 1px #ccc8c826;
-    padding: 2px 20px;
+    /* box-shadow: 0px 1px 2px 1px #ccc8c826; */
+    padding: 2px 0px;
     border-radius: 20px;
-    margin: 30px auto;
+    margin: 0px auto;
     display: block;
     width: fit-content;
     color: #000;
-    border: 1px solid #80808024;
+    border: none;
+    /* margin-bottom: 15px; */
+    margin-top: 0px;
 }
 
 .app_icon_details .btn_download {
@@ -533,9 +542,11 @@ body {
     padding: 5px 20px;
     text-transform: uppercase;
     font-weight: 400;
-    background: #1d6978;
+    background: #39adff;
     color: #fff;
     letter-spacing: 1px;
+    border-radius: 15px;
+    font-size: 22px;
 }
 
 .app_de .card {
@@ -554,7 +565,7 @@ body {
 
 .app_list_ {
 
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 .app_list_ h6 {
@@ -1000,7 +1011,7 @@ ul.breadcrumb li a {
 
 .ads_img {
 
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 
     border-radius: 6px;
 
@@ -1230,7 +1241,7 @@ footer {
 /* footer part end here  */
 
 .ads_img iframe {
-    width: 100%;
+    width: 100% !important;
     height: 100%;
     object-fit: cover;
     border-radius: 6px !important;
@@ -1410,7 +1421,7 @@ footer {
 
 ._apps .s_img_box {
 
-    max-height: 140px;
+    max-height: 100px;
 
     padding: 5px;
 }
@@ -1426,9 +1437,9 @@ footer {
 
 .cat_apps_view .ads_sec {
 
-    margin-top: -85px;
+margin-top: -85px;
 
-    padding-right: 40px;
+/* padding-right: 40px; */
 }
 
 /* Media  */
@@ -1550,11 +1561,11 @@ footer {
 
     ._apps {
         grid-template-columns: repeat(4, 12fr);
-        padding: 20px !important;
+        padding: 20px;
     }
 
     .cat_apps_view .ads_sec {
-        padding: 0 !important;
+        /* padding: 0 !important; */
     }
 }
 
@@ -1693,8 +1704,8 @@ footer {
         border-radius: 8px;
         filter: drop-shadow(2px 4px 6px #ededed);
         /* box-shadow: 0 0 3px #3232e82e; */
-        height: 90px;
-        width: 90px;
+        /* height: 90px; */
+        width: 150px;
     }
 
     .big_title h1 {
@@ -1891,8 +1902,7 @@ footer {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s,
-        opacity .5s, visibility .5s;
+    transition: background-color .3s, opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
@@ -1939,47 +1949,29 @@ footer {
 }
 
 .video_player {
-
     width: 100%;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     margin-bottom: 10px;
-
     border-radius: 10px;
-
     overflow: hidden;
-
     border: 1px solid #0000001a;
-
     box-shadow: 0 1px 2px #0000000f;
 }
 
 .video_player iframe {
-
     width: 100%;
-
     height: auto;
-
     min-height: 500px;
 }
 
 .v_title {
-
     padding: 20px;
-
     background: #fff;
-
     margin-bottom: 10px;
-
     border-radius: 10px;
-
     border: 1px solid #0000001a;
-
     box-shadow: 0 1px 2px #0000000f;
 }
 
@@ -1990,22 +1982,202 @@ footer {
 }
 
 .v_title a {
-
     font-size: 14px;
-
     border: 1px solid #0000001a;
-
     box-shadow: 0 1px 2px #0000000f;
-
     padding: 5px 20px;
 }
-@media(max-width: 768px){
+
+.apps_view_box {
+    margin-top: -85px;
+    padding: 0px 40px;
+}
+
+._btn_share {
+    background: transparent;
+    border: 1px solid #78b7d4;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #4c4c4c;
+    transition: .4s all ease-in-out;
+}
+
+._btn_share:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: 1px 3px 10px 3px #cacaca6b;
+}
+.share_options{
+
+}
+.share_options h6{
+
+font-size: 18px;
+
+margin-bottom: 14px;
+
+margin-top: 5px;
+
+text-align: center;
+}
+.socials{
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+}
+.socials a{
+
+margin: 0;
+
+padding: 0;
+
+height: 38px;
+
+width: 38px;
+
+border-radius: 50%;
+
+overflow: hidden;
+
+margin: 0px 5px;
+}
+.socials a img{
+
+border-radius: 50%;
+
+height: 100%;
+
+width: 100%;
+
+object-fit: cover;
+}
+.copy_link{
+
+text-align: center;
+}
+.input_box{
+
+}
+.input_box input{
+
+border: 1px solid #80808036;
+
+padding: 5px 20px;
+
+border-top-left-radius: 10px;
+
+border-bottom-left-radius: 10px;
+
+font-size: 14px;
+}
+.input_box button{
+    
+padding: 5px 10px;
+    
+border: 1px solid #69656538;
+    
+font-size: 14px;
+    
+background: #fff;
+    
+border-top-right-radius: 10px;
+    
+border-bottom-right-radius: 10px;
+}
+._btn_share i{
+    margin-right: 8px;
+}
+.input_box input:focus{
+    
+    outline: 0;
+    border-color: #78b7d4;
+}
+.modal-content {
+    border-radius: 0;
+    box-shadow: 0 0 20px #00000045;
+}
+.essential_d_store_link{
+
+display: flex;
+
+justify-content: end;
+}
+.essential_d_store_link a{
+
+background: transparent !important;
+}
+.essential_d_store_link a img{
+    
+max-width: 200px;
+}
+.v_slide{
+
+}
+.v_slide .ads_img{margin: 5px;width: 100%;}
+.v_slide .ads_img img{
+    
+min-height: 242px;
+}
+.v_title span{
+    color: #000;
+}
+.load_more{
+
+padding: 5px 15px;
+
+margin-top: 20px;
+
+border: 1px solid #2397f3a6;
+
+background: #fff;
+
+font-weight: 400;
+
+border-radius: 3px;
+
+box-shadow: 0 2px 8px #71717a29;
+
+border-radius: 10px;
+}
+.load_more img{
+    
+border-radius: 50%;
+    
+width: 20px;
+}
+.cat_page{
+    margin-top: -25px;
+}
+.cat_page_ads{
+
+}
+@media(max-width: 768px) {
     .video_player iframe {
         min-height: 212px;
     }
-    
-    .cat_apps_view .ads_sec{
-        margin: 0 !important;
+    .cat_page_ads{
+        margin-top: 20px !important;
+    }
+    .cat_apps_view .ads_sec {
+        margin: 0px !important;
         padding: 0px 10px !important;
+        margin-top: 10px !important;
+    }
+
+    .apps_view_box {
+        margin-top: -85px;
+        padding: 0px 10px;
+    }
+    
+}
+.app_page{
+
+}
+@media(max-width: 1201px){
+    .app_page{
+        margin-top: 20px !important;
     }
 }
