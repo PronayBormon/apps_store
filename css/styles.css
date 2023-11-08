@@ -1620,7 +1620,7 @@ margin-top: -85px;
 @media(max-width: 576px) {
     .essential_grid {
         grid-template-columns: repeat(2, 2fr) !important;
-        grid-template-rows: 1fr 1fr 0;
+        grid-template-rows: 1fr 1fr;
         overflow: hidden;
     }
 
