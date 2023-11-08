@@ -14,12 +14,6 @@
     <!-- fontawsome cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- google fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
-
-
     <!-- style css  -->
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/styles.css"> <!--Styles-->
@@ -28,7 +22,6 @@
 </head>
 
 <body>
-
 
     <!-- top bar start here  -->
     <div class="top_bar _nav">
@@ -39,23 +32,20 @@
                         <div class="navbar_box">
                             <div class="nav_left_element">
                                 <div class="navbar_brand">
-                                    <a href="index.html" class="d-flex align-items-center"
-                                        style="text-decoration: none;"><img src="images/logo.png" class="img-fluid"
-                                            loading="lazy" alt="">
-                                        <h6>FunFlix HD</h6>
-                                    </a>
+                                    <img src="images/logo.png" class="img-fluid" loading="lazy" alt="">
+                                    <h6>FunFlix HD</h6>
                                 </div>
                                 <div class="nav_options">
                                     <ul class="nav_oplink">
-                                        <!-- <li class="nav-item">
-                      <a class="nav-link active" href="index.html">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="index.html">
 
-                        <div class="d-flex align-items-center">
-                          <i class="fa-solid fa-home me-1"></i>
-                          Home
-                        </div>
-                      </a>
-                    </li> -->
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fa-solid fa-home me-1"></i>
+                                                    Home
+                                                </div>
+                                            </a>
+                                        </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" role="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -176,7 +166,7 @@
                                                         d="M43,42H5a4,4,0,0,1-4-4V10A4,4,0,0,1,5,6H43a4,4,0,0,1,4,4V38A4,4,0,0,1,43,42ZM12,8H5a2,2,0,0,0-2,2v2h9ZM23,8H14v4h9ZM34,8H25v4h9Zm11,2a2,2,0,0,0-2-2H36v4h9Zm0,4H3V34H45Zm0,22H36v4H34V36H25v4H23V36H14v4H12V36H3v2a2,2,0,0,0,2,2H43a2,2,0,0,0,2-2ZM21.621,29.765A.987.987,0,0,1,21,30a1,1,0,0,1-1-1V19a1,1,0,0,1,1-1,.978.978,0,0,1,.563.2l7.771,4.872a.974.974,0,0,1,.261,1.715Z"
                                                         transform="translate(-1 -6)" fill-rule="evenodd" />
                                                 </svg>
-                                                Movies
+                                                Movies & tv
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="#">Movies </a></li>
@@ -196,37 +186,6 @@
 
                                             </ul>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px"
-                                                    viewBox="0 0 24 24" fill="none">
-                                                    <link xmlns="" type="text/css" rel="stylesheet"
-                                                        id="dark-mode-custom-link" />
-                                                    <link xmlns="" type="text/css" rel="stylesheet"
-                                                        id="dark-mode-general-link" />
-                                                    <style xmlns="" lang="en" type="text/css"
-                                                        id="dark-mode-custom-style" />
-                                                    <style xmlns="" lang="en" type="text/css"
-                                                        id="dark-mode-native-style" />
-                                                    <style xmlns="" lang="en" type="text/css"
-                                                        id="dark-mode-native-sheet" />
-                                                    <path
-                                                        d="M4 19V6.2C4 5.0799 4 4.51984 4.21799 4.09202C4.40973 3.71569 4.71569 3.40973 5.09202 3.21799C5.51984 3 6.0799 3 7.2 3H16.8C17.9201 3 18.4802 3 18.908 3.21799C19.2843 3.40973 19.5903 3.71569 19.782 4.09202C20 4.51984 20 5.0799 20 6.2V17H6C4.89543 17 4 17.8954 4 19ZM4 19C4 20.1046 4.89543 21 6 21H20M9 7H15M9 11H15M19 17V21"
-                                                        stroke="#000000" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>
-                                                Courses
-                                            </a>
-                                            <ul class="dropdown-menu">
-
-                                                <li><a class="dropdown-item" href="#">Udemy</a></li>
-                                                <li><a class="dropdown-item" href="#">Linda</a></li>
-                                                <li><a class="dropdown-item" href="#">Coursera</a></li>
-
-
-                                            </ul>
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -237,7 +196,13 @@
                                     <h6>FunFlix HD</h6>
                                 </div>
                                 <div class="top_searchbar ">
-
+                                    <select name="" id="" class="d_view">
+                                        <option value="" selected>All</option>
+                                        <option value="">Movies </option>
+                                        <option value="">Drama </option>
+                                        <option value="">Games </option>
+                                        <option value="">Software</option>
+                                    </select>
                                     <div class="search_form_apps d_view">
                                         <input type="text" placeholder="Search apps,games, movies and more">
                                         <button class="" type="button"><i class="fa-solid fa-search"></i></button>
@@ -271,209 +236,147 @@
     </div>
     <!-- top bar end here  -->
 
-    <!-- banner part start here  -->
-    <div class="essential_ cat_banner">
+    <!-- apps details part start here  -->
+    <div class="apps_details">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="essential_box">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="essential_d">
-                                    <div style="min-height: 150px;">
-                                        <h1>Five Nights At Freddys (2023) 1080p WEBRip.mp4</h1>
+                <div class="col-md-4">
+                    <div class="app_icon_details">
+                        <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                        <h3>Telegram</h3>
+                        <a href="//telegram.org">Telegram.com</a>
+                        <a href="#" class="btn_download">Download</a>
 
+                        <span>Social</span>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="app_de">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Description</h5>
+                            </div>
+                            <div class="card-body">
+                                <p>Grow your career on the largest social networking app for professionals. With
+                                    LinkedIn for Windows, you can keep up-to-date with your community and new
+                                    job
+                                    opportunities, connect with recruiters, and use your profile to share your
+                                    professional story. </p>
+
+                                <p>Top ways to use LinkedIn to boost your career: </p>
+
+                                <h6>JOB SEARCH</h6>
+                                <ul>
+                                    <li>Apply job search filters to help find the right roles for you out of
+                                        millions of
+                                        openings</li>
+                                    <li>Use your profile as a virtual resume that highlights your
+                                        accomplishments,
+                                        skills, and experience</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app_list_">
+                        <h6>People also view </h6>
+                        <div class="apps_s_grid apps_details_list">
+                            <div class="apps_box_two">
+                                <div class="s_img_box">
+                                    <img src="images/app-100.png" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                                <div class="d_box">
+                                    <h3>Telegram</h3>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p><i class="fa-solid fa-star"></i>2.6</p>
+                                        <a href="details.html" class="btn_download">Download</a>
                                     </div>
                                 </div>
                             </div>
-
+                            <div class="apps_box_two">
+                                <div class="s_img_box">
+                                  <div class="blur_box"
+                                    style=" background-image: var(--theme-noise-image-to-linear-gradient), linear-gradient(transparent, transparent), url(../images/software_images/centos7.jpg);">
+                                  </div>
+                                  <img src="images/software_images/centos7.jpg" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                                <div class="d_box">
+                                  <h3>YouTube</h3>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <p><i class="fa-solid fa-star"></i>2.6</p>
+                                    <a href="details.html" class="btn_download">Download</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="apps_box_two">
+                                <div class="s_img_box">
+                                  <div class="blur_box"
+                                    style=" background-image: var(--theme-noise-image-to-linear-gradient), linear-gradient(transparent, transparent), url(../images/software_images/download-adobe-photoshop-cs-8-0.jpg);">
+                                  </div>
+                  
+                                  <img src="images/software_images/download-adobe-photoshop-cs-8-0.jpg" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                                <div class="d_box">
+                                  <h3>Telegram</h3>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <p><i class="fa-solid fa-star"></i>2.6</p>
+                                    <a href="details.html" class="btn_download">Download</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="apps_box_two">
+                                <div class="s_img_box">
+                                  <div class="blur_box"
+                                    style=" background-image: var(--theme-noise-image-to-linear-gradient), linear-gradient(transparent, transparent), url(../images/software_images/rons-water-bundle-large.jpg);">
+                                  </div>
+                                  <img src="images/software_images/rons-water-bundle-large.jpg" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                                <div class="d_box">
+                                  <h3>YouTube</h3>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <p><i class="fa-solid fa-star"></i>2.6</p>
+                                    <a href="details.html" class="btn_download">Download</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="apps_box_two">
+                                <div class="s_img_box">
+                                  <div class="blur_box"
+                                    style=" background-image: var(--theme-noise-image-to-linear-gradient), linear-gradient(transparent, transparent), url(../images/software_images/th_Ene76PNllk6ODlJsM9lJ6Nch7VMCuST8.png);">
+                                  </div>
+                  
+                                  <img src="images/software_images/th_Ene76PNllk6ODlJsM9lJ6Nch7VMCuST8.png" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                                <div class="d_box">
+                                  <h3>Telegram</h3>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <p><i class="fa-solid fa-star"></i>2.6</p>
+                                    <a href="details.html" class="btn_download">Download</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="apps_box_two">
+                                <div class="s_img_box">
+                                  <div class="blur_box"
+                                    style=" background-image: var(--theme-noise-image-to-linear-gradient), linear-gradient(transparent, transparent), url(../images/software_images/speed_Adobe-Photoshop-CS6.jpg);">
+                                  </div>
+                                  <img src="images/software_images/speed_Adobe-Photoshop-CS6.jpg" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                                <div class="d_box">
+                                  <h3>YouTube</h3>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <p><i class="fa-solid fa-star"></i>2.6</p>
+                                    <a href="details.html" class="btn_download">Download</a>
+                                  </div>
+                                </div>
+                              </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- banner part end here  -->
-
-    <!-- apps grid part start here  -->
-    <div class="apps_second cat_apps_view">
-        <div class="container-fluid">
-
-            <div class="row">
-                <div class="col-md-10">
-                    <!-- apps details part start here  -->
-                    <div class="apps_details" style="position: relative;margin-top: -85px; padding-top: 0;">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="video_player">
-                                        <iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/ILlxkQoI#hWipHLGMLBB2LhEYsAlYo9eWQ_bdEKIBarozPyLtrL8" allowfullscreen ></iframe>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="v_title">
-                                        <h2 class="lead">Five Nights At Freddys (2023) 1080p WEBRip.mp4</h2>
-                                        <a href="#" class="btn_download">Download</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="app_de">
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <h5>Description</h5>
-                                            </div>
-                                            <div class="card-body">
-                                                <p>Grow your career on the largest social networking app for
-                                                    professionals. With
-                                                    LinkedIn for Windows, you can keep up-to-date with your community
-                                                    and new
-                                                    job
-                                                    opportunities, connect with recruiters, and use your profile to
-                                                    share your
-                                                    professional story. </p>
-
-                                                <p>Top ways to use LinkedIn to boost your career: </p>
-
-                                                <h6>JOB SEARCH</h6>
-                                                <ul>
-                                                    <li>Apply job search filters to help find the right roles for you
-                                                        out of
-                                                        millions of
-                                                        openings</li>
-                                                    <li>Use your profile as a virtual resume that highlights your
-                                                        accomplishments,
-                                                        skills, and experience</li>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- apps details part end here  -->
-                </div>
-                <div class="col-md-2">
-                    <div class="ads_sec">
-                        <div class="ads_img">
-                            <img src="images/ads_size/250x250.gif" alt="">
-                        </div>
-                        <div class="ads_img">
-                            <img src="images/ads_size/250x600.gif" alt="">
-                        </div>
-                        <div class="ads_img">
-                            <iframe id="200_268_dfa7banner_html_inpage_0.if"
-                                src="//s0.2mdn.net/dfp/1754321/4628264607/1695719733125/300 x 250/index.html"
-                                width="300" height="250" frameborder="0" scrolling="no" allowfullscreen="true"
-                                style="width: 300px; height: 250px;"
-                                bis_size="{&quot;x&quot;:0,&quot;y&quot;:0,&quot;w&quot;:300,&quot;h&quot;:250,&quot;abs_x&quot;:986,&quot;abs_y&quot;:1125}"
-                                bis_id="fr_zj07gcw0csd6ebqbqx5b59" bis_depth="1" bis_chainid="10"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- apps grid part end here  -->
-
-
-    <!-- support part start here  -->
-    <section class="support pt-4">
-        <div class="container">
-            <div class="row py-">
-                <div class="col-md-6 m-auto">
-                    <div class="big_title wow fadeIn">
-                        <h2>FunFlix HD SUPPORT </h2>
-                        <h1>The help you need, when you need it</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row py-4">
-                <div class="col-md-6">
-                    <div class="support_content wow fadeIn">
-                        <img src="images/div.mb-8 (2).png" class="img-fluid" alt="">
-                        <h1>Community</h1>
-                        <p>Connect with a community of brands, partners, and fellow merchants who understand FunFlix HD.
-                        </p>
-                        <a href="#" class="btn btn-read">Join <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="support_content wow fadeIn">
-                        <img src="images/div.mb-8 (3).png" class="img-fluid" alt="">
-                        <h1>Help center</h1>
-                        <p>Find answers with a dedicated helpdesk resource full of articles and videos from our Support
-                            team.</p>
-                        <a href="#" class="btn btn-read">Join <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- support part end here  -->
-
-    <!-- footer part start here  -->
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 wow fadeIn">
-                    <div class="term_condition">
-                        <ul>
-                            <!-- <li>
-                  <a href="#"> <i class="fa-solid fa-globe"></i>ENG </a>
-                </li> -->
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Privacy policy</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 wow fadeIn">
-                    <div class="social">
-                        <ul class="justify-content-end">
-                            <li>
-                                <a href="#"> <i class="fa-brands fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- footer part end here  -->
-
-    <!-- back to top button  -->
-    <a style="text-decoration: none;" id="button"></a>
-
-
-
+    <!-- apps details part end here  -->
 
 
 
@@ -487,7 +390,6 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script> <!--Bootstrap-->
     <script src="js/nav_Sidebar.js"></script>
-    <script src="js/backToTop.js"></script>
 
     <script>
         $(document).ready(function () {
