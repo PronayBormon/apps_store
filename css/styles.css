@@ -1991,6 +1991,7 @@ margin-top: -85px;
 .apps_view_box {
     margin-top: -85px;
     padding: 0px 40px;
+    margin-top: -45px !important;
 }
 
 ._btn_share {
@@ -2178,6 +2179,6 @@ width: 20px;
 }
 @media(max-width: 1201px){
     .app_page{
-        margin-top: 20px !important;
+        margin-top: -40px !important;
     }
 }
