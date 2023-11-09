@@ -1028,9 +1028,11 @@ ul.breadcrumb li a {
 /* support part start here  */
 .support {
 
-    background: #000;
+background: #000;
 
-    font-family: 'helvetica';
+font-family: 'helvetica';
+
+margin-top: 20px;
 }
 
 .big_title {
@@ -1840,7 +1842,7 @@ margin-top: -85px;
 /* grow your business part start here  */
 .grow_business {
 
-    background: #55ea9e;
+    background: #000;
 }
 
 .grow_content {}
@@ -2117,7 +2119,7 @@ max-width: 200px;
 .v_slide{
 
 }
-.v_slide .ads_img{margin: 5px;width: 100%;}
+.v_slide .ads_img{/* margin: 5px; */width: 100%;}
 .v_slide .ads_img img{
     
 min-height: 242px;
@@ -2181,4 +2183,12 @@ width: 20px;
     .app_page{
         margin-top: -40px !important;
     }
+}
+.grow_content a{
+    
+}
+.grow_content a img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
