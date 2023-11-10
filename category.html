@@ -868,6 +868,21 @@
       })
     })
   </script>
+  <script>
+    (function () {
+        var copyButton = document.querySelector('.copy_link button');
+        var copyInput = document.querySelector('.copy_link input');
+        copyButton.addEventListener('click', function (e) {
+            e.preventDefault();
+            var text = copyInput.select();
+            document.execCommand('copy');
+        });
+
+        copyInput.addEventListener('click', function () {
+            this.select();
+        });
+    })();
+</script>
 
 </body>
 
