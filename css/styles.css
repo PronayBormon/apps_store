@@ -2282,12 +2282,15 @@ background: #fec9382e;
     }
     .table_content tbody tr td .btn_download{
         /* height: 100%; */
-        margin: 0px;
+        margin: 3px 0px;
+        padding: 5px;
     }
 }
 .btn_download img{
     width: 20px;
+    height: 20px;
 }
 .table_content tbody tr td .btn_search img{
     width: 20px;
+    height: 20px;
 }
