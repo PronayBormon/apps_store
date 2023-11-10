@@ -2270,7 +2270,7 @@ background: #fec9382e;
     .table_content tbody tr td .btn_download{
         /* height: 100%; */
         margin: 3px 0px;
-        padding: 10px 5px;
+        padding: 5px;
     }
 }
 @media(max-width: 376px){
