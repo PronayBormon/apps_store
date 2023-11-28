@@ -72,7 +72,7 @@ body {
 
 .navbar_brand img {
     /* max-height: 34px; */
-    /* max-width: 30px; */
+    max-width: 220px;
     /* display: none; */
 }
 
@@ -1970,8 +1970,8 @@ footer {
     position: absolute;
     width: 38px;
     height: auto;
-    left: 5%;
-    top: 5%;
+    right: 5%;
+    top: 8%;
 }
 
 .video_player iframe {
@@ -2415,7 +2415,7 @@ footer {
     }
 }
 @media(max-width: 376px){
-    .navbar_brand{
-        width: 80% !important;
+    .navbar_brand img {
+        max-width: 200px;
     }
 }
